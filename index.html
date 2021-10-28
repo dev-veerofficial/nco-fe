@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/lib/bs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper" class="bg-lite">
+        <!-- Hero -->
+        <section id="hero">
+            <div id="topheader">
+                <div class="row align-items-stretch">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <ul class="list-unstyled list-inline link-light hero-contact">
+                            <li class="list-inline-item para-lg">
+                                <a href="tel:+353429371331">
+                                    <i class="fa fa-phone-alt"></i>
+                                    <span class="d-none d-md-inline"> (+353) 42 9371331</span>
+                                    <span class="d-inline d-md-none"> Call Us</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item para-lg ml-3">
+                                <a href="mailto:info@niallclarkeoils.com">
+                                    <i class="fa fa-envelope"></i>
+                                    <span class="d-none d-md-inline"> info@niallclarkeoils.com </span>
+                                    <span class="d-inline d-md-none">Email Us</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- header -->
+            <header>
+                <div class="container">
+                    <nav class="navbar navbar-expand-xl navbar-light bg-transparent">
+                        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+                        <div>
+                            <button class="navbar-toggler" type="button">
+                                <span class=""><img src="assets/images/cart.png" alt=""></span>
+                            </button>
+                            <button class="navbar-toggler mobile-oilorderbtn" type="button">
+                                <span class=""><img src="assets/images/oil-bottle.png" alt=""></span>
+                            </button>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span><img src="assets/images/menu.png" alt=""></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse para-lg" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Store</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sponsorship</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                                <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li> -->
+                            </ul>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#"> <i class="fa fa-shopping-cart"></i> Cart</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <i class="fa fa-user-circle"></i> <span
+                                            class=""> My Account</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-s btn-nav pop-lite" href="#">Order Oil</a>
+                                </li>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="container shrinked">
+                <div class="row">
+                    <div class="col-12 col-md-5 col-lg-7 d-flex align-items-center punch">
+                        <h2 class="txt-lite h-xxxl"> Home Heating Oil Deliveries <span
+                                class="d-block pop-heavy txt-s">Easy, Quick, and Safe.</span>
+                        </h2>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-5">
+                        <div class="card shadow-card">
+                            <div class="card-header py-3">
+                                <h3>Order Oil</h3>
+                            </div>
+                            <div class="card-body">
+                                <form action="" id="hero-orderform">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="town">Select Your Town</label>
+                                                <select name="town" id="town" class="form-control">
+                                                    <option value="" selected disabled>Select Town</option>
+                                                    <option value="">Arklow</option>
+                                                    <option value="">Dublin</option>
+                                                    <option value="">Foynes</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div class="row mt-1">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <div><label for="">Select Oil Type</label></div>
+                                                <div class="form-check form-check-inline capsulecheck">
+                                                    <input class="form-check-input" type="radio" id="kerosene"
+                                                        value="kerosene" name="oiltype">
+                                                    <label class="form-check-label" for="kerosene"> 
+                                                        <i class="fa fa-check"></i> Kerosene</label>
+                                                </div>
+                                                <div class="form-check form-check-inline capsulecheck">
+                                                    <input class="form-check-input" type="radio" id="mgo" value="mgo"
+                                                        name="oiltype">
+                                                    <label class="form-check-label" for="mgo"> <i
+                                                            class="fa fa-check"></i> MGO</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div class="row mt-1 hero-igroup">
+                                        <div class="col-12 col-md-5">
+                                            <label for="">Enter Quantity</label>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">Litre</span>
+                                                </div>
+                                                <input type="text" class="form-control text-right" placeholder="0.00"
+                                                    aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="col-12 col-md-2 text-center d-flex align-items-center justify-content-center">
+                                            <span class="circle">OR</span>
+                                        </div>
+                                        <div class="col-12 col-md-5">
+                                            <label for="">Enter Amount</label>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-addon1">€</span>
+                                                </div>
+                                                <input type="text" class="form-control text-right" placeholder="0.00"
+                                                    aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div class="col-12 mt-2">
+                                        Expect your delivery on <strong>23 September 2021</strong> <a
+                                            href="javascript:void(0);"><strong>(Change)</strong></a>
+                                    </div>
+                                    <!--  -->
+                                    <div class="col-12 text-center mt-4 mb-2 py-2">
+                                        <button class="btn btn-s">Complete Order > </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Process icons -->
+        <section id="process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-10 offset-lg-1 d-flex flex-wrap flex-md-nowrap justify-content-between">
+                        <div class="process-box d-lg-flex align-items-center px-2">
+                            <div class="process-icon">
+                                <img src="assets/images/process1.png" alt="">
+                            </div>
+                            <div class="process-data px-2">
+                                <h5>Easy Order Placement</h5>
+                                <p>Organise your oil delivery in less than 3 minutes. It's simple and secure.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="process-arrow d-flex d-md-none d-lg-flex align-items-center justify-content-center px-2">
+                            <img src="assets/images/arrow-left.png" alt="">
+                        </div>
+                        <div class="process-box d-lg-flex align-items-center px-2">
+                            <div class="process-icon">
+                                <img src="assets/images/process2.png" alt="">
+                            </div>
+                            <div class="process-data px-2">
+                                <h5>Quick Processing</h5>
+                                <p>Your local depot will take care of your order. We will deliver to you within 48
+                                    hours.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="process-arrow d-flex d-md-none d-lg-flex align-items-center justify-content-center px-2">
+                            <img src="assets/images/arrow-left.png" alt="">
+                        </div>
+                        <div class="process-box d-lg-flex align-items-center px-2">
+                            <div class="process-icon">
+                                <img src="assets/images/process3.png" alt="">
+                            </div>
+                            <div class="process-data px-2">
+                                <h5>Safe Delivery</h5>
+                                <p>Local driver will complete the delivery safely. You don't even need to be home.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Loyalty intro -->
+        <section id="lp-intro" class="bg-gradient">
+            <div class="section-heading container shrinked">
+                <div class="row">
+                    <div class="col-12 text-center my-4 text-light pop-lite">
+                        <h2>Introducing Loyalty Points</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container shrinked">
+                <div class="row">
+                    <div class="col-12 col-lg-6 lp-image">
+                        <img src="assets/images/nco-loyalty.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 text-light">
+                        <div class="loyalty-txt para-lg">
+                            <p>Now you can earn and redeem loyalty points whenever you make an order with <span
+                                    class="txt-s"> Niall Clark
+                                    Oils</span>. You can check your loyalty point balance in your NCO wallet and
+                                Dashboard.</p>
+
+                            <h3 class="txt-s">Earn Loyalty Points</h3>
+                            <p>
+                                You get instant loyalty points into your NOC wallet on every successful order you place.
+                            </p>
+
+                            <h3 class="txt-s">Redeem Loyalty Points</h3>
+                            <p>
+                                Redeem loyalty points from your NOC wallet on every order you placing with us.
+                            </p>
+                        </div>
+                        <div class="loyalty-btns mt-5 para-xxl">
+                            <a href="" class="btn btn-outline-s pop-lite"> More Info </a>
+                            <a href="" class="btn btn-s pop-lite mx-3"> Sign Up Now > </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stations -->
+        <section id="stations">
+            <div class="section-heading container">
+                <div class="row">
+                    <div class="col-12 text-center my-4 text-light">
+                        <h2 class="txt-s pop-heavy">Find a Station <span class="text-dark">Near You</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container shrinked">
+                <div class="row">
+                    <div class="col-12 col-lg-5 station-pic">
+                        <img src="assets/images/stations.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="station-box">
+                            <h4 class="station-name">Ballymac Service Station</h4>
+                            <div class="station-brief">
+                                <p>
+                                    Ballymac Service Station is located on the outskirts of Dundalk and is easily
+                                    located right beside the Ballymascanlon roundabout (the last stop before the M1
+                                    motorway), just 10 minutes from the border. There are currently 24 pumps in service
+                                    at Ballymac: 6 of these pumps are exclusive to diesel bunkering operations.
+                                </p>
+                                <p><a href="javascript:void(0);">Get Contact Info</a></p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="station-box">
+                            <h4 class="station-name">Oriel Service Station</h4>
+                            <div class="station-brief">
+                                <p>
+                                    Ideally situated on the Dublin Road, and near both Louth County Hospital and Dundalk
+                                    Regional Technical College (DKIT), Oriel Service Station delivers fast and efficient
+                                    service 24 hours a day. Having recently undergone a major renovation, Oriel is now
+                                    one of the most state-of-the-art service stations in Ireland.
+                                </p>
+                                <p><a href="javascript:void(0);">Get Contact Info</a></p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="station-box">
+                            <h4 class="station-name">Newry Filling Station</h4>
+                            <div class="station-brief">
+                                <p>
+                                    Our Newry Filling Station, open 24 hours a day, is conveniently located on the
+                                    Belfast road, just outside Newry. We offer a comprehensive range of services &
+                                    facilities including hot and cold deli, Cafe, ATM, Off Licence, Lotto, Paypoint,
+                                    Charging Stations, Baby Changing etc. Designed to help make the motoring experience
+                                    that bit more convenient.
+                                </p>
+                                <p><a href="javascript:void(0);">Get Contact Info</a></p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <a href="" class="btn btn-lg btn-s">Order Oil Now ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- order by phone -->
+        <section id="orderbyphone" class="bg-light">
+            <div class="container shrinked">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <img src="assets/images/nco-order-by-phone.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="obp-box">
+                            <h2 class="txt-s pop-heavy">Place Order<span class="text-dark"> By Phone</span></h2>
+                            <p class="para-lg">
+                                Contact our friendly telephone staff to check heating oil prices or to order commercial
+                                oil or home heating oil. <strong> We’re happy to hear from you </strong>.
+                            </p>
+                            <div class="obp-callinfo">
+                                <h5 class="text-dark pop-heavy">Sourthern Ireland</h5>
+                                <ul class="list-inline mt-4">
+                                    <li class="list-inline-item para-xl"> <img src="assets/images/obp-call.png" alt="">
+                                        <a href="tel:0429371331">042 937 1331</a>
+                                    </li>
+                                    <li class="list-inline-item para-xl"> <img src="assets/images/obp-call.png" alt="">
+                                        <a href="tel:0429371331">042 937 1077</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- latest news -->
+        <section id="latestnews">
+            <div class="section-heading container shrinked">
+                <div class="row">
+                    <div class="col-12 text-center my-4 text-light">
+                        <h2 class="txt-s pop-heavy">Latest <span class="text-dark">News</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="blogbx">
+                            <div class="row">
+                                <div class="col-12 col-md-4 blog-thumb">
+                                    <img src="assets/images/news-thumb1.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-center text-md-left blog-brief">
+                                    <h5>Fantastic Trucker Prizes Up For Grabs At Niall Clarke Oils.</h5>
+                                    <div class="newsmeta">
+                                        <a href="#">News</a> | <a href="#">22 Sep. 2021</a>
+                                    </div>
+                                    <a href="#">Read More »</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-12 col-lg-6">
+                        <div class="blogbx">
+                            <div class="row">
+                                <div class="col-12 col-md-4 blog-thumb">
+                                    <img src="assets/images/news-thumb1.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-center text-md-left blog-brief">
+                                    <h5>Fantastic Trucker Prizes Up For Grabs At Niall Clarke Oils.</h5>
+                                    <div class="newsmeta">
+                                        <a href="#">News</a> | <a href="#">22 Sep. 2021</a>
+                                    </div>
+                                    <a href="#">Read More »</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-12 col-lg-6">
+                        <div class="blogbx">
+                            <div class="row">
+                                <div class="col-12 col-md-4 blog-thumb">
+                                    <img src="assets/images/news-thumb1.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-center text-md-left blog-brief">
+                                    <h5>Fantastic Trucker Prizes Up For Grabs At Niall Clarke Oils.</h5>
+                                    <div class="newsmeta">
+                                        <a href="#">News</a> | <a href="#">22 Sep. 2021</a>
+                                    </div>
+                                    <a href="#">Read More »</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-12 col-lg-6">
+                        <div class="blogbx">
+                            <div class="row">
+                                <div class="col-12 col-md-4 blog-thumb">
+                                    <img src="assets/images/news-thumb1.png" alt="">
+                                </div>
+                                <div class="col-12 col-md-8 text-center text-md-left blog-brief">
+                                    <h5>Fantastic Trucker Prizes Up For Grabs At Niall Clarke Oils.</h5>
+                                    <div class="newsmeta">
+                                        <a href="#">News</a> | <a href="#">22 Sep. 2021</a>
+                                    </div>
+                                    <a href="#">Read More »</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+
+
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="bg-p">
+            <div class="container shrinked">
+                <div class="row">
+                    <!-- footer logo and social links -->
+                    <div class="col-12 col-md-12 col-lg-3 footer-left">
+                        <div id="footerbrand">
+                            <img src="assets/images/logo.png" alt="">
+                        </div>
+                        <img src="assets/images/email.png" alt=""> <a
+                            href="mailto:info@niallclarkoils.com">info@niallclarkoils.com</a>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="javascript:void(0);"> <img
+                                        src="assets/images/facebook.png" alt=""> </a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0);"> <img
+                                        src="assets/images/twitter.png" alt=""> </a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0);"> <img
+                                        src="assets/images/linkedin.png" alt=""> </a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0);"> <img
+                                        src="assets/images/instagramfour.png" alt=""> </a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Links -->
+                    <div class="col-12 col-md-12 col-lg-9">
+                        <div class="row footer-top justify-content-between">
+                            <div class="footerlist">
+                                <ul class="list-unstyled link-light">
+                                    <li><a href="javascript:void(0);">Home</a></li>
+                                    <li><a href="javascript:void(0);">Order Oil</a></li>
+                                    <li><a href="javascript:void(0);">Stores</a></li>
+                                    <li><a href="javascript:void(0);">Sponsorship</a></li>
+                                    <li><a href="javascript:void(0);">About NCO</a></li>
+                                </ul>
+                            </div>
+                            <!--  -->
+                            <div class="footerlist">
+                                <ul class="list-unstyled link-light">
+                                    <li><a href="javascript:void(0);">Our Team</a></li>
+                                    <li><a href="javascript:void(0);">Latest News</a></li>
+                                    <li><a href="javascript:void(0);">Blog</a></li>
+                                    <li><a href="javascript:void(0);">Fuel Stations</a></li>
+                                    <li><a href="javascript:void(0);">Press & Media</a></li>
+                                </ul>
+                            </div>
+                            <!--  -->
+                            <div class="footerlist">
+                                <ul class="list-unstyled link-light">
+                                    <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                                    <li><a href="javascript:void(0);">Cookie Policy</a></li>
+                                    <li><a href="javascript:void(0);">Cancellation Policy</a></li>
+                                    <li><a href="javascript:void(0);">Terms of Usage</a></li>
+                                    <li><a href="javascript:void(0);">Loyalty Point Terms</a></li>
+                                </ul>
+                            </div>
+                            <!--  -->
+                            <div class="footerlist">
+                                <ul class="list-unstyled link-light">
+                                    <li><a href="javascript:void(0);">Events</a></li>
+                                    <li><a href="javascript:void(0);">Business Enquiry</a></li>
+                                    <li><a href="javascript:void(0);">Franchise Enquiry</a></li>
+                                    <li><a href="javascript:void(0);">Careers</a></li>
+                                    <li><a href="javascript:void(0);">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <!--  -->
+                            <div class="footerlist">
+                                <ul class="list-unstyled link-light">
+                                    <li><a href="javascript:void(0);">Home</a></li>
+                                    <li><a href="javascript:void(0);">Order Oil</a></li>
+                                    <li><a href="javascript:void(0);">Stores</a></li>
+                                    <li><a href="javascript:void(0);">Sponsorship</a></li>
+                                    <li><a href="javascript:void(0);">About NCO</a></li>
+                                </ul>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row footer-bottom text-light">
+                            <div class="col-12 col-md-4 px-0">
+                                <h4 class="txt-s">Newry Filling Station</h4>
+                                <p>
+                                    Newry Filling Station <br> 16 Belfast Road <br> Newry <br> Co. Down <br> BT34 1QA
+                                </p>
+                                <p>
+                                    (0044) 28 302 62436 <br> nioffice@niallclarkeoils.com
+                                </p>
+                            </div>
+                            <!--  -->
+                            <div class="col-12 col-md-4">
+                                <h4 class="txt-s">Ballymac Service Station</h4>
+                                <p>
+                                    Niall Clarke Oils <br> Ballymac Service Station <br> Aghaboys <br> Dundalk <br>
+                                    Co.Louth
+                                </p>
+                                <p>
+                                    (00353) 42 9371331 <br> (00353) 42 9371077 <br> roioffice@niallclarkeoils.com
+                                </p>
+                            </div>
+                            <!--  -->
+                            <div class="col-12 col-md-4">
+                                <h4 class="txt-s">Oriel Service Station</h4>
+                                <p>
+                                    Newry Filling Station <br> 16 Belfast Road <br> Newry <br> Co. Down <br> BT34 1QA
+                                </p>
+                                <p>
+                                    (+353) 42 9371331 <br> nioffice@niallclarkeoils.com
+                                </p>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/lib/bs/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+// colors
+$color-p: #1c105e;
+$color-p-dark: #0C004B;
+$color-s: #f78f1e;
+$color-blugrey: #756f97;
+$color-blulite: #F3F1FF;
+$color-grey: #f9f9f9;
+$color-light: #fff;
+$color-dark: #000;
+
+//Effects
+.shadow-btn-s {
+    box-shadow: 0 13px 9px rgba(253, 234, 213);
+}
+.shadow-card {
+    box-shadow: 0 30px 20px rgba(246, 245, 254,0.2);
+}
+.bg-gradient {
+    background: linear-gradient(to right, #1c105e, #2D063C);
+}
+
+.bg-light{
+    background-color: $color-light;
+}
+
+.bg-lite {
+    background-color: $color-blulite;
+}
+.bg-p {
+    background-color: $color-p;
+}
+.bg-p-dark {
+    background-color: $color-p-dark;
+}
+.bg-s {
+    background-color: $color-s;
+}
+.txt-p {
+    color: #1c105d;
+}
+.txt-lite {
+    color: #fff;
+}
+.txt-s {
+    color: #f78f1e;
+}
+
+// Fonts:
+.font-pop {
+    font-family: "Poppins", sans-serif;
+}
+.font-opens {
+    font-family: "Open Sans", sans-serif;
+}
+
+.pop-heavy {
+    @extend .font-pop;
+    font-weight: bold;
+}
+
+.pop-reg {
+    @extend .font-pop;
+    font-weight: normal;
+}
+
+.pop-lite {
+    @extend .font-pop;
+    font-weight: bold;
+}
+
+.para-xs {
+    font-size: 12px !important;
+}
+.para-sm {
+    font-size: 14px !important;
+}
+.para-reg {
+    font-size: 16px !important;
+}
+.para-lg {
+    font-size: 18px !important;
+}
+.para-xl {
+    font-size: 20px !important;
+}
+.h-s {
+    font-size: 22px !important;
+}
+.h-m {
+    font-size: 24px !important;
+}
+.h-l {
+    font-size: 28px !important;
+}
+.h-xl {
+    font-size: 32px !important;
+}
+.h-xxl {
+    font-size: 34px !important;
+}
+.h-xxxl {
+    font-size: 42px !important;
+    line-height: 80px
+}
+
+// Buttons
+
+.btn {
+    @extend .pop-lite;
+    width: auto;
+    height: 60px;
+    line-height: 30px;
+    border-radius: 35px;
+    border: none;    
+    padding: 15px 50px;
+}
+
+.btn-s {
+    background-color: $color-s;
+    color: $color-light;
+}
+
+.btn-light-p {
+    background-color: $color-light;
+    color: $color-p;
+}
+
+.btn-light-s {
+    background-color: $color-light;
+    color: $color-s;
+}
+
+.btn-outline-s {
+    background: transparent;
+    color: $color-s;
+    border: 1px solid $color-s;
+}
+
+a:not(footer a){
+    color: $color-s;
+}
+
+.link-light a,
+a .link-light{
+    color: $color-light;
+    &:hover{
+        color: $color-s;
+        text-decoration: none;
+    }
+}
+
+.btn-strong {
+    @extend .pop-heavy;
+}

@@ -159,6 +159,7 @@ section#process {
 .card {
     border-radius: 20px;
     border: none;
+    overflow: hidden;
     .card-header {
         background-color: transparent;
         @extend .h-l;
@@ -237,6 +238,27 @@ nav {
         height: 45px;
         line-height: 20px;
         padding: 15px 35px;
+    }
+}
+
+.lpredeembox{
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+label.paymethod{
+    border: 1px solid #A9AFB9;
+    border-radius:5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.paymethodbox{
+    input+label i{color: #C8C8C8;}
+    input:checked+label{ 
+        border-color: $color-s;
+        i{color: $color-s;}
     }
 }
 

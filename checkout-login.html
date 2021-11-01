@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/media.css">
     <title>NCO - Login</title>
 </head>
+
 <body>
     <div id="wrapper" class="bg-lite">
         <!-- header -->
@@ -95,8 +96,8 @@
                                 <a class="nav-link" href="#"> <i class="fa fa-shopping-cart"></i> Cart</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> <i class="fa fa-user-circle"></i> <span
-                                        class=""> My Account</span></a>
+                                <a class="nav-link" href="#"> <i class="fa fa-user-circle"></i> <span class=""> My
+                                        Account</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="btn btn-s btn-nav pop-lite" href="#">Order Oil</a>
@@ -107,87 +108,115 @@
         </header>
         <!--  -->
         <div class="container shrinked">
-            <div class="row">
-                <div class="col-12 col-md-6 offset-md-3">
-                    <div class="card my-5e">
-                        <div class="card-header text-center py-4">Create an Account</div>
+            <div class="row my-5e">
+                <div class="col-12 col-md-7">
+                    <div class="card mt-5 mt-4">
+                        <div class="card-header py-3">Existing Customer</div>
                         <div class="card-body">
-                            <form action="" name="signupForm" id="signupForm">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">First Name</label>
-                                            <input type="text" class="form-control" placeholder="Enter First Name">
-                                        </div>
+                            <form action="" name="loginForm" id="loginForm"></form>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label for="">Login ID</label>
+                                        <input type="text" class="form-control" placeholder="Email ID or Mobile Number">
                                     </div>
-                                    <!--  -->
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">Last Name</label>
-                                            <input type="text" class="form-control" placeholder="Enter Last Name">
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">Email</label>
-                                            <input type="email" class="form-control" placeholder="Enter Email Address">
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">Mobile Number</label>
-                                            <input type="text" class="form-control" placeholder="Enter Mobile Number">
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">Address Line 1</label>
-                                            <input type="text" class="form-control" placeholder="Plot/House/Building">
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">Address Line 2</label>
-                                            <input type="text" class="form-control" placeholder="Street Address/Landmark">
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">Eircode</label>
-                                            <input type="text" class="form-control" placeholder="Enter Eircode">
-                                        </div>
-                                    </div>
-                                    <!--  -->
-                                    <div class="col-12 col-md-6 mt-3">
-                                        <div class="form-group">
-                                            <label for="">Select Town</label>
-                                            <select name="" id="" class="form-control">
-                                                <option value="" selected disabled>Select Town</option>
-                                                <option value="">Arklow</option>
-                                                <option value="">Dublin</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <!--  -->
                                 </div>
-                                <!--  -->                               
-                              
-                                <div class="row align-items-center mt-4">
-                                    <div class="col-12 text-center mt-2">
-                                        <button class="btn btn-s para-xl">Create Account</button>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label for="">Password</label>
+                                        <input type="password" class="form-control" placeholder="Enter Your Password">
                                     </div>
-                                </div>    
-                                <div class="row mt-4">
-                                    <div class="col-12 text-center para-xl my-3">
-                                        Already have an account? <a href="signup.html"><strong>Log In</strong></a>
-                                    </div>
-                                </div>                         
+                                </div>
+                                <div class="col-12 col-md-6 d-flex align-items-center">
+                                    <a href="javascript:void(0)">Forgot Password?</a>
+                                </div>
+                                <div class="col-12 col-md-6 text-right mt-2">
+                                    <button class="btn btn-s para-xl">Login</button>
+                                </div>
+                            </div>
                             </form>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card bg-s text-light mt-3">
+                        <div class="card-header py-3">New Customer</div>
+                        <div class="card-body">
+                            <p>
+                                Create a free account within seconds and enjoy the benefits of being a registered
+                                customer.
+                            </p>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <ul class="list-unstyled">
+                                        <li>Earn and Redeem the loyalty points.</li>
+                                        <li>Place orders on NCO credit.</li>
+                                        <li>Experience Faster Checkout.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-6 d-flex justify-content-end align-items-end">
+                                    <button class="btn btn-light-s para-xl">Register Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card bg-p text-light mt-3">
+                        <div class="card-header py-3">Guest Checkout</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <p>
+                                        Checkout as a Guest and create an account on completion of the order.
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+                                    <button class="btn btn-light-p para-xl">Guest Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <div class="col-12 col-md-4 offset-1">
+                    <div class="card mt-5">
+                        <div class="card-header bg-p pt-4">
+                            <h4>Order Summary</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row para-lg">
+                                <div class="col-6 mb-2">Fuel Type:</div>
+                                <div class="col-6 text-right"> <strong>Kerosene</strong> </div>
+                                <!--  -->
+                                <div class="col-6 mb-2">Quantity:</div>
+                                <div class="col-6 text-right"> <strong>500 Ltrs</strong> </div>
+                                <!--  -->
+                                <div class="col-6 mb-2">Amount:</div>
+                                <div class="col-6 text-right"> <strong>€387.65</strong> </div>
+                                <!--  -->
+                                <div class="col-6 mb-2">VAT:</div>
+                                <div class="col-6 text-right"> <strong>€52.33</strong> </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                        <div class="card-footer bg-s">
+                            <div class="row h-s text-light">
+                                <div class="col-6">Order Total</div>
+                                <div class="col-6 text-right"> <strong>$439.98</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <div class="row">                                
+                                <div class="col-8">
+                                    <p>Your delivery will be with you</p>
+                                    <p><strong>Monday 1 November 2021</strong></p>
+                                </div>
+                                <div class="col-4 d-flex align-items-center">
+                                    <button class="btn btn-s btn-auto btn-mini"><i class="fa fa-calendar"></i> Change</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -308,4 +337,5 @@
         </footer>
     </div>
 </body>
+
 </html>

@@ -14,6 +14,10 @@
   background-color: #fff;
 }
 
+.bg-grey {
+  background-color: #f9f9f9;
+}
+
 .bg-lite, #wrapper {
   background-color: #F3F1FF;
 }
@@ -109,8 +113,8 @@
 
 .btn {
   width: auto;
-  height: 60px;
-  line-height: 30px;
+  height: 50px;
+  line-height: 20px;
   border-radius: 35px;
   border: none;
   padding: 15px 50px;
@@ -135,6 +139,19 @@
   background: transparent;
   color: #f78f1e;
   border: 1px solid #f78f1e;
+}
+
+.btn-auto {
+  width: auto !important;
+  min-width: none !important;
+  height: auto;
+  min-height: auto;
+}
+
+.btn-mini {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 a:not(footer a) {
@@ -307,6 +324,7 @@ section#process {
 .card {
   border-radius: 20px;
   border: none;
+  overflow: hidden;
 }
 .card .card-header {
   background-color: transparent;
@@ -379,6 +397,29 @@ nav .btn-nav {
   height: 45px;
   line-height: 20px;
   padding: 15px 35px;
+}
+
+.lpredeembox {
+  background: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+label.paymethod {
+  border: 1px solid #A9AFB9;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.paymethodbox input + label i {
+  color: #C8C8C8;
+}
+.paymethodbox input:checked + label {
+  border-color: #f78f1e;
+}
+.paymethodbox input:checked + label i {
+  color: #f78f1e;
 }
 
 @media screen and (min-width: 1900px) {

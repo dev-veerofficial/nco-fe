@@ -23,6 +23,10 @@ $color-dark: #000;
     background-color: $color-light;
 }
 
+.bg-grey{
+    background-color: $color-grey;
+}
+
 .bg-lite {
     background-color: $color-blulite;
 }
@@ -108,8 +112,8 @@ $color-dark: #000;
 .btn {
     @extend .pop-lite;
     width: auto;
-    height: 60px;
-    line-height: 30px;
+    height: 50px;
+    line-height: 20px;
     border-radius: 35px;
     border: none;    
     padding: 15px 50px;
@@ -134,6 +138,19 @@ $color-dark: #000;
     background: transparent;
     color: $color-s;
     border: 1px solid $color-s;
+}
+
+.btn-auto{
+    width: auto !important;
+    min-width: none !important;
+    height: auto;
+    min-height: auto; 
+}
+
+.btn-mini{
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: normal;
 }
 
 a:not(footer a){

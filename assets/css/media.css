@@ -35,7 +35,7 @@
 }
 
 .txt-p {
-  color: #1c105d;
+  color: #1c105e;
 }
 
 .txt-lite {
@@ -44,6 +44,10 @@
 
 .txt-s {
   color: #f78f1e;
+}
+
+.txt-blugrey {
+  color: #756f97;
 }
 
 .font-pop, .pop-lite, .btn, .pop-reg, .pop-heavy, .btn-strong {
@@ -141,6 +145,12 @@
   border: 1px solid #f78f1e;
 }
 
+.btn-outline-p {
+  background: transparent;
+  color: #1c105e;
+  border: 1px solid #1c105e;
+}
+
 .btn-auto {
   width: auto !important;
   min-width: none !important;
@@ -166,6 +176,10 @@ a .link-light {
 a .link-light:hover {
   color: #f78f1e;
   text-decoration: none;
+}
+
+.w100, .w100 * {
+  width: 100%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {

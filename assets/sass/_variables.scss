@@ -40,13 +40,16 @@ $color-dark: #000;
     background-color: $color-s;
 }
 .txt-p {
-    color: #1c105d;
+    color: $color-p;
 }
 .txt-lite {
-    color: #fff;
+    color: $color-light;
 }
 .txt-s {
-    color: #f78f1e;
+    color: $color-s;
+}
+.txt-blugrey {
+    color: $color-blugrey;
 }
 
 // Fonts:
@@ -139,6 +142,11 @@ $color-dark: #000;
     color: $color-s;
     border: 1px solid $color-s;
 }
+.btn-outline-p {
+    background: transparent;
+    color: $color-p;
+    border: 1px solid $color-p;
+}
 
 .btn-auto{
     width: auto !important;
@@ -168,4 +176,9 @@ a .link-light{
 
 .btn-strong {
     @extend .pop-heavy;
+}
+
+//width and height
+.w100, .w100 *{
+    width: 100%;
 }

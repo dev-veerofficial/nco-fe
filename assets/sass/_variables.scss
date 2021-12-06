@@ -7,6 +7,7 @@ $color-blulite: #F3F1FF;
 $color-grey: #f9f9f9;
 $color-light: #fff;
 $color-dark: #000;
+$color-success: rgb(39, 165, 14);
 
 //Effects
 .shadow-btn-s {
@@ -47,6 +48,9 @@ $color-dark: #000;
 }
 .txt-s {
     color: $color-s;
+}
+.txt-success {
+    color: $color-success;
 }
 .txt-blugrey {
     color: $color-blugrey;
